@@ -1,0 +1,25 @@
+<html>
+<head>
+    <script defer src="3_1.js"></script>
+</head>
+<body>
+<!-- 3.1 숫자 두 개의 평균값 구하기 -->
+<script>
+    'use strict';
+
+    //값 두개 받기
+    let a = prompt('첫 번째 숫자를 입력하세요.');
+    let b = prompt('두 번째 숫자를 입력하세요.');
+
+    //문자형 숫자형으로 변환(typeof)
+    let numA = Number(a);
+    let numB = Number(b);
+
+    //평균값 계산
+    let average = (numA + numB) / 2;
+
+    //평균값 출력
+    document.write(average);
+</script>
+</body>
+</html>
