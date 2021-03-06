@@ -3,9 +3,16 @@
     <script defer src="3_2.js"></script>
 </head>
 <body>
-<!-- 3.1 숫자 10개의 평균값 반복문을 이용하여 구하기 -->
+<!-- 3.1 숫자 10개의 평균값 반복문 for을 이용하여 구하기 -->
 <script>
     'use strict';
+
+    let sum = 0;
+    for( let i = 0; i < 10; i++ ) {
+        let x = prompt(`${i+1} 번째 숫자를 입력하세요`);
+        sum += Number(x);
+    }
+    document.write(sum / 10);
 </script>
 </body>
 </html>
